@@ -156,22 +156,53 @@ if (nombre === "ChatGPT" || tienePase === "vip") {
 /*let numeroIncognita = Math.floor(Math.random() * 10) + 1;
 let intentos = 3;
 
-for (let i = 0; i < 3; i++) {
-    let numeroIngresado = parseInt(prompt(`Intento ${i + 1}/3: Ingresa un número del 1 al 10:`));
-    if (numeroIngresado === numeroIncognita) {
+let numeroIngresado1 = parseInt(prompt(`Intento 1/3: Ingresa un número del 1 al 10:`));
+if (numeroIngresado1 === numeroIncognita) {
+    console.log("¡Ganaste, haz adivinado el número!");
+} else if (numeroIngresado1 < numeroIncognita) {
+    console.log("El número ingresado es menor. Vuelve a intentarlo.");
+    let numeroIngresado2 = parseInt(prompt(`Intento 2/3: Ingresa un número del 1 al 10:`));
+    if (numeroIngresado2 === numeroIncognita) {
         console.log("¡Ganaste, haz adivinado el número!");
-        break; 
-    } else if (numeroIngresado < numeroIncognita) {
+    } else if (numeroIngresado2 < numeroIncognita) {
         console.log("El número ingresado es menor. Vuelve a intentarlo.");
+        let numeroIngresado3 = parseInt(prompt(`Intento 3/3: Ingresa un número del 1 al 10:`));
+        if (numeroIngresado3 === numeroIncognita) {
+            console.log("¡Ganaste, haz adivinado el número!");
+        } else {
+            console.log(`Lo siento, se acabaron los intentos. El número era ${numeroIncognita}.`);
+        }
     } else {
         console.log("El número ingresado es mayor. Vuelve a intentarlo.");
+        let numeroIngresado3 = parseInt(prompt(`Intento 3/3: Ingresa un número del 1 al 10:`));
+        if (numeroIngresado3 === numeroIncognita) {
+            console.log("¡Ganaste, haz adivinado el número!");
+        } else {
+            console.log(`Lo siento, se acabaron los intentos. El número era ${numeroIncognita}.`);
+        }
     }
-
-    intentos--;
-}
-
-if (intentos === 0) {
-    console.log(`Lo siento, se acabaron los intentos. El número era ${numeroIncognita}.`);
+} else {
+    console.log("El número ingresado es mayor. Vuelve a intentarlo.");
+    let numeroIngresado2 = parseInt(prompt(`Intento 2/3: Ingresa un número del 1 al 10:`));
+    if (numeroIngresado2 === numeroIncognita) {
+        console.log("¡Ganaste, haz adivinado el número!");
+    } else if (numeroIngresado2 < numeroIncognita) {
+        console.log("El número ingresado es menor. Vuelve a intentarlo.");
+        let numeroIngresado3 = parseInt(prompt(`Intento 3/3: Ingresa un número del 1 al 10:`));
+        if (numeroIngresado3 === numeroIncognita) {
+            console.log("¡Ganaste, haz adivinado el número!");
+        } else {
+            console.log(`Lo siento, se acabaron los intentos. El número era ${numeroIncognita}.`);
+        }
+    } else {
+        console.log("El número ingresado es mayor. Vuelve a intentarlo.");
+        let numeroIngresado3 = parseInt(prompt(`Intento 3/3: Ingresa un número del 1 al 10:`));
+        if (numeroIngresado3 === numeroIncognita) {
+            console.log("¡Ganaste, haz adivinado el número!");
+        } else {
+            console.log(`Lo siento, se acabaron los intentos. El número era ${numeroIncognita}.`);
+        }
+    }
 }*/
 
 //Ejercicio 9
