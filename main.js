@@ -1,7 +1,7 @@
 //Ejercicio 1
 
-/*let numero1 = (prompt("Ingrese el primer número:"));
-let numero2 = (prompt("Ingrese el segundo número:"));
+/*let numero1 = (prompt("Ingresa el primer número:"));
+let numero2 = (prompt("Ingresa el segundo número:"));
 
 if (numero1 > numero2) {
     console.log("El primer número es mayor que el segundo.");
@@ -12,8 +12,8 @@ if (numero1 > numero2) {
 }*/
 
 //Ejercicio 2
-/*let numero1 = parseFloat(prompt("Ingrese el primer número:"));
-let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+/*let numero1 = parseFloat(prompt("Ingresa el primer número:"));
+let numero2 = parseFloat(prompt("Ingresa el segundo número:"));
 
 if (isNaN(numero1) || isNaN(numero2)) {
     console.log("Uno o ambos valores ingresados no son números válidos.");
@@ -26,8 +26,8 @@ if (isNaN(numero1) || isNaN(numero2)) {
 }*/
 
 //Ejercicio 3
-/*let numero1 = parseFloat(prompt("Ingrese el primer número:"));
-let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+/*let numero1 = parseFloat(prompt("Ingresa el primer número:"));
+let numero2 = parseFloat(prompt("Ingresa el segundo número:"));
 
 if (isNaN(numero1) || isNaN(numero2)) {
     console.log("Uno o ambos valores ingresados no son números válidos.");
@@ -42,9 +42,9 @@ if (isNaN(numero1) || isNaN(numero2)) {
 }*/
 
 //Ejercicio 4
-/*let numero1 = parseFloat(prompt("Ingrese el primer número:"));
-let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
-let numero3 = parseFloat(prompt("Ingrese el tercer número:"));
+/*let numero1 = parseFloat(prompt("Ingresa el primer número:"));
+let numero2 = parseFloat(prompt("Ingresa el segundo número:"));
+let numero3 = parseFloat(prompt("Ingresa el tercer número:"));
 
 if (isNaN(numero1) || isNaN(numero2) || isNaN(numero3)) {
     console.log("Uno o más valores ingresados no son números válidos.");
@@ -63,13 +63,13 @@ if (isNaN(numero1) || isNaN(numero2) || isNaN(numero3)) {
 }*/
 
 //Ejercicio 5 
-/*let nombre1 = prompt("Ingrese el nombre de la primera persona:");
-let edad1 = parseInt(prompt("Ingrese la edad de la primera persona:"));
-let altura1 = parseFloat(prompt("Ingrese la altura de la primera persona (en metros):"));
+/*let nombre1 = prompt("Ingresa el nombre de la primera persona:");
+let edad1 = parseInt(prompt("Ingresa la edad de la primera persona:"));
+let altura1 = parseFloat(prompt("Ingresa la altura de la primera persona (en metros):"));
 
-let nombre2 = prompt("Ingrese el nombre de la segunda persona:");
-let edad2 = parseInt(prompt("Ingrese la edad de la segunda persona:"));
-let altura2 = parseFloat(prompt("Ingrese la altura de la segunda persona (en metros):"));
+let nombre2 = prompt("Ingresa el nombre de la segunda persona:");
+let edad2 = parseInt(prompt("Ingresa la edad de la segunda persona:"));
+let altura2 = parseFloat(prompt("Ingresa la altura de la segunda persona (en metros):"));
 
 let persona1 = {
     nombre: nombre1,
@@ -128,7 +128,7 @@ if (tieneEntrada === 's') {
     tieneEntrada = 'no';
 }
 
-if (nombre === "ChatGPT" || tienePase === "vip") {
+if (nombre === "Andres" || tienePase === "vip") {
     console.log(`Bienvenido, ${nombre}!`);
     if (tieneEntrada === 'si') {
         let usarEntrada = prompt("¿Deseas utilizar tu entrada? (si o no):").toLowerCase();
